@@ -1,0 +1,26 @@
+Cars											EXAMPLE
+
+id_car			numero		AUTO_INCREMENT	NOT NULL PRIMARY KEY UNIQUE	1
+car_make		stringa		VARCHAR(30)	NOT NULL			Alfa Romeo
+car_model		stringa		VARCHAR(30)	NOT NULL			Giulia
+car_generation		stringa		VARCHAR(30)	NULL				1 generazione
+car_series		stringa		VARCHAR(30)	NOT NULL			Berlina
+car_specification	stringa		MEDIUMTEXT	NULL
+car_option		stringa		MEDIUMTEXT	NULL
+car_equipment		stringa		MEDIUMTEXT	NULL						
+car_change		stringa		VARCHAR(20)	NOT NULL			Manuale
+car_body		stringa		VARCHAR(30)	NULL				Berlina
+car_seats		numero		TINYINT		NOT NULL			4
+car_weight		numero		SMALLINT	NULL				2820
+car_length		numero		SMALLINT	NULL				4639
+car_height		numero		SMALLINT	NULL				1873
+car_engine		stringa		VARCHAR(20)	NOT NULL			Benzina
+car_displacement	stringa		VARCHAR(40)	NOT NULL			2.9 MT (510 cv)
+car_full_speed		numero		SMALLINT	NOT NULL			285
+car_tank_volume		numero		SMALLINT	NOT NULL			58
+car_image		stringa		TEXT		DEFAULT	("default.jpg")		http://xxx.com
+year_begin		data		YEAR		NOT NULL			2016
+year_end		data		YEAR		NOT NULL			2018
+car_price		numero		FLOAT(10,2)	NOT NULL			13250.00
+
+
